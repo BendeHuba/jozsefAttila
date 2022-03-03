@@ -1,5 +1,6 @@
 :root{
-    --bs-secondary-rgb: 180, 180, 0;
+    --bs-secondary-rgb: 245, 197, 66;
+    --bs-warning-rgb: 224, 199, 96;
 }
 
 body{
