@@ -6,3 +6,13 @@
 body{
     background-image: url('img/bg.png');
 }
+
+#jegyzek{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#jegyzek:hover{
+    color: black;
+    text-shadow: 0 0 0px rgba(0,0,0,0);
+}
