@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="bg-secondary container w-75 mx-auto">
+    <div class="bg-secondary container w-75 mx-auto" id="top">
         <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -42,7 +42,7 @@
             </button>
         </div>
 
-        <nav class="navbar navbar-expand-lg bg-secondary" id="top">
+        <nav class="navbar navbar-expand-lg bg-secondary">
             <a class="navbar-brand" href="#h" onclick="valt('h')">
                 <img src="img/k0.jpg" width="50px">
             </a>
@@ -52,18 +52,18 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
               <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                  <a class="nav-link heading-text" href="#e" onclick="valt('e')">Élettörténete</a>
+                  <a class="nav-link heading-text" href="#h" onclick="valt('e')">Élettörténete</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i>Művei</i> kategóriák szerint rendezve
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#v" onclick="valt('v')">Versei</a></li>
-                    <li><a class="dropdown-item" href="#p" onclick="valt('p')">Prózái</a></li>
-                    <li><a class="dropdown-item" href="#m" onclick="valt('m')">Műfordítása</a></li>
+                    <li><a class="dropdown-item" href="#h" onclick="valt('v')">Versei</a></li>
+                    <li><a class="dropdown-item" href="#h" onclick="valt('p')">Prózái</a></li>
+                    <li><a class="dropdown-item" href="#h" onclick="valt('m')">Műfordítása</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#s" onclick="valt('s')">Szabad ötletek jegyzéke</a></li>
+                    <li><a class="dropdown-item" href="#h" onclick="valt('s')">Szabad ötletek jegyzéke</a></li>
                   </ul>
                 </li>
               </ul>
@@ -71,11 +71,11 @@
             </div>
         </nav>
 
-        <div>
+        <div class="fs-5">
             <div id="h">
                 <h1>József Attila </h1>
                 <h3>(Budapest, Ferencváros, 1905. április 11 - Balatonszárszó, 1937. december 3.)</h3>
-                <div class="row fs-5">
+                <div class="row">
                     <div class="col-12 col-md-6 col-xl-4">
                         <p>Baumgarten- és posztumusz Kossuth-díjas magyar költő, a magyar költészet egyik legkiemelkedőbb alakja. Az élet kegyetlen volt vele, hiszen félárva gyermekként ifjúsága tele volt lemondással és brutalitással, felnőttként pedig szembesülnie kellett a meg nem értéssel. Öngyilkosságra utaló tragikus halálának pontos körülményeit azóta sem sikerült tisztázni.</p>
                     </div>
@@ -88,15 +88,47 @@
                         <p>Már külföldön is szimpatizált a kommunizmussal, majd Magyarországra hazatérve kapcsolatba lépett az illegális munkásmozgalommal. Zaklatott magánéletét azonban érzelmi válságok, szerelmi reménytelenségek és egzisztenciális félelmek terhelték, melyek mindinkább felőrölték idegrendszerét. A zavaros elmeállapotú költő a balatonszárszói vasútállomáson egy tehervonat kerekei alá került és szörnyethalt.</p>
                     </div>
                     
-                    <div class="col-12 col-md-6 col-xl-12">
+                    <div class="col-12 col-md-6 col-xl-12 pb-2">
                         <p>Mindössze harminckét évet élt, mégis a magyar költészet egyik legjelentősebb alakja. Az 1945 utáni szocialista kultúrpolitika mint haladó proletárköltőt piedesztálra emelte és emlékét, munkásságát a legnagyobbaknak kijáró tisztelettel ünnepelte. Műfordítóként József Attila a szomszéd népek kortárs lírájával foglalkozott és értékesek Villon-fordításai is.</p>
                     </div>
+                    <hr>
+                    <q class="fs-3 fst-italic pt-3 pb-5">József Attila költészete forradalmat jelentett a magyar irodalom történetében: az az új szemléletmód, ahogyan verseiben az »én«-t felépíti, láttatja, összhangban volt Európa és Amerika akkori költészetével. Öröksége sok évtizedre meghatározta a magyar költészet tendenciáit. Ahogy minden igazán nagy alkotó esetében, az övében is azt látjuk, hogy száz évvel születése után legalább annyi újdonságot tud mondani, mint a megelőző évtizedekben</q>
                 </div>
                 
 
                 
             </div>
-            <div id="e">xd2</div>
+            <div id="e">
+                <h1>Életének története</h1>
+                <h3>Családja, gyermekkora és tanulmányai</h3>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <p>József Attila 1905. április 11-én született Budapesten, Ferencvárosban, a Gát utca 3. szám alatt. Hatodik gyermekként jött a világra, három testvére még az ő születése előtt meghalt. Csupán hároméves volt, amikor az apa 1908. július 1-jén elhagyta őket. A család úgy tudta, elindult szerencsét próbálni Amerikába, valójában Romániába ment, de családját végleg magára hagyta. </p>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <p> Végül úgy döntött, hogy 1910 februárjában két kisebb gyermekét, Etelkát és Attilát, a Gyermekvédő Liga gondjaira bízza. A testvérek 1910. március 21-én Öcsödre kerültek nevelőszülőkhöz, Gombai Ferenc parasztgazda házába. A gyermekek a házimunkában, az állatok etetésében és legeltetésében segítettek, cserébe kapták az ellátást. Csak 1911 nyarán látogatta meg őket édesanyjuk.</p>
+                    </div> 
+                    
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <p>
+                            József Attila az öcsödi református elemi iskolában kezdte meg tanulmányait az 1911/12-es tanévben. Nevelőszülei a gyermek füle hallatára állapították meg szomszédaikkal, hogy „az Attila név nem létezik”, és innentől fogva Pistának szólították. Fontos tényező volt életében, hogy később Attila hun vezérről szóló olvasmányokat talált.</p>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-xl-4 offset-xl-2">
+                        <p>Ez természetesen felkeltette érdeklődését az irodalom iránt, hisz' ezek a legendák megerősítették identitástudatát. Amíg a két gyermek távol volt, édesanyjuk folyamatosan azon munkálkodott, hogy számukra jobb életkörülményeket teremthessen. Szerzett egy bérlakást a Gubacsi úton, majd munka közben súlyos baleset érte, a lábadozás során addig szerzett javai elkallódtak. Etel és Attila 1912. június 19-én tértek haza Öcsödről, bár a család továbbra is nagy szegénységben élt a Ferencvárosban.</p>
+                    </div> 
+                    
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <p>Gyakran kellett költözködniük egyik lakásból a másikba. József Attila 1912/13-ban először az Ipar utcai fővárosi népiskolában, egy költözés után pedig a mai Mester utca 67. szám alatti iskolában járta a II. osztályt. Napjait nagyrészt az utcán töltötte, a kenyérkeresés szabályos és szabálytalan módjaival is megpróbálkozott. Már gyermekkorában kemény fizikai munkát is vállalt, hogy a család szegénysége enyhüljön, erről a következő sorai tanúskodnak:</p>
+                    </div>
+                    <q class="fs-3 fst-italic pt-3">Kivettem a részemet az üzletek előtt való álldogálásokból – volt úgy, hogy este kilenc órakor odaálltam az élelmiszerüzem előtt várakozó sorba és reggel fél nyolckor, mikor már sorra kerültem volna, jelentették ki az orrom előtt, hogy nincs több zsír. Úgy segítettem anyámnak, ahogyan tudtam. Vizet árultam a Világ moziban. Fát és szenet loptam a Ferencvárosi pályaudvarról, hogy legyen fűtenivalónk. Színes papírforgókat csináltam és árusítottam a jobb sorsban élő gyerekeknek. Kosarakat, csomagokat hordtam a vásárcsarnokban.</q>
+
+                    <p>(József Attila: Curriculum vitae, részlet)</p>
+
+                    <p>Sokat betegeskedett, 1913 vége felé súlyos tüdőgyulladás döntötte ágynak. 1914 első felében Jolán nővérével történt egyik heves vita után Attila először próbált öngyilkos lenni: lúgkővel akarta megmérgezni magát, de helyette tévedésből keményítőt ivott. József Jolán állást szerzett a Bőrklinikán, majd 1914. augusztus 22-én feleségül ment Pászti Elemérhez. A család ekkor a férj Üllői út 63. szám alatti lakásába költözött át. 1914. október 14-én Pászti a frontra indult.</p>
+                </div>
+            </div>
             <div id="v">xd3</div>
             <div id="p">xd4</div>
             <div id="m">xd5</div>
